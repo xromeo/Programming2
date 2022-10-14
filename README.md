@@ -1,2 +1,2 @@
-# Programming ALgo Expert
-ALgo Expert
+# Programming Algo Expert
+Algo Expert
