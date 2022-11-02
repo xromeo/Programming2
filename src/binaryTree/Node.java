@@ -3,22 +3,10 @@ package binaryTree;
 import java.util.Objects;
 
 public class Node {
-    Integer data;
-    public Integer getData() {
-		return data;
-	}
-
+    Integer data;  
 	Node left;
-    public Node getLeft() {
-		return left;
-	}
-
 	Node right;
-
-    public Node getRight() {
-		return right;
-	}
-
+ 
 	public Node(Integer data) {
         this.data = data;
     }
@@ -66,6 +54,16 @@ public class Node {
         return true;
     }
 
+    public Integer getData() {
+		return data;
+	}
+    public Node getLeft() {
+		return left;
+	}
+    public Node getRight() {
+		return right;
+	}
+    
     public static void main(String[] args) {
         Node root = new Node(7);
         root.insert(5);
