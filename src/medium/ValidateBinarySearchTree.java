@@ -41,5 +41,5 @@ boolean validate(BinarySearchTree node){
         
     }
 
-    
+
 }
