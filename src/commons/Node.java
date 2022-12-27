@@ -1,4 +1,4 @@
-package binaryTree;
+package commons;
 
 import java.util.Objects;
 
@@ -37,23 +37,6 @@ public class Node {
         return null;
     }
 
-    boolean validate(Node node, Node min, Node max){
-        if(Objects.nonNull(max) && node.data > max.data){
-            return false;
-        }
-        if(Objects.nonNull(min) && node.data < min.data){
-            return false;
-        }
-        if(Objects.nonNull(node.left) && !validate(node.left, min, node)){
-            return false;
-        }
-        if(Objects.nonNull(node.right) && !validate(node.right, node, max)){
-            return false;
-        }
-        
-        return true;
-    }
-
     public Integer getData() {
 		return data;
 	}
@@ -64,28 +47,6 @@ public class Node {
 		return right;
 	}
     
-    
-    public static void main(String[] args) {
-        Node root = new Node(7);
-        root.insert(5);
-        root.insert(4);
-        root.insert(6);
-        root.insert(2);
-        root.insert(10);
-        root.insert(-1);
-        root.insert(0);
-        root.insert(11);
-
-        var node = root.contain(11);
-        if (Objects.nonNull(node)) {
-            System.out.println(node.data);
-        }
-
-       
-            System.out.println("result:" + root.validate(root, null, null));
-        
-    }
-
     public void setData(Integer data) {
         this.data = data;
     }
