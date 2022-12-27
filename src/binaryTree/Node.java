@@ -64,6 +64,7 @@ public class Node {
 		return right;
 	}
     
+    
     public static void main(String[] args) {
         Node root = new Node(7);
         root.insert(5);
@@ -83,5 +84,17 @@ public class Node {
        
             System.out.println("result:" + root.validate(root, null, null));
         
+    }
+
+    public void setData(Integer data) {
+        this.data = data;
+    }
+
+    public void setLeft(Node left) {
+        this.left = left;
+    }
+
+    public void setRight(Node right) {
+        this.right = right;
     }
 }
