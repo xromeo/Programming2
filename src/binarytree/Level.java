@@ -1,4 +1,4 @@
-package binaryTree;
+package binarytree;
 
 public class Level {
     public Node node;

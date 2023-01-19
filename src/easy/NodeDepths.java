@@ -2,8 +2,8 @@ package easy;
 import java.util.Objects;
 import java.util.Stack;
 
-import binaryTree.Level;
-import binaryTree.Node;
+import binarytree.Level;
+import binarytree.Node;
 
 public class NodeDepths {
 
