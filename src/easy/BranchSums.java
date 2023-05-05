@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import binaryTree.Node;
+import binarytree.Node;
 public class BranchSums {
 
     void branchSum(Node node, int runningSum, List<Integer> sums){

@@ -1,7 +1,7 @@
 package easy;
 import java.util.Objects;
 
-import binaryTree.Node;
+import binarytree.Node;
 
 public class ClosestValueInBinaryTree {
 
