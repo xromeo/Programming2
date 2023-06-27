@@ -1,0 +1,588 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ViralAdvertising",
+            "request": "launch",
+            "mainClass": "easy.ViralAdvertising",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "GradingStudents",
+            "request": "launch",
+            "mainClass": "easy.GradingStudents",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "NumberLineJumps",
+            "request": "launch",
+            "mainClass": "easy.NumberLineJumps",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayDivision",
+            "request": "launch",
+            "mainClass": "easy.SubarrayDivision",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "search.BinarySearch",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "sort.QuickSort",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "MergSort",
+            "request": "launch",
+            "mainClass": "sort.MergSort",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "LarrysArray",
+            "request": "launch",
+            "mainClass": "medium.LarrysArray",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BiggerIsGreater",
+            "request": "launch",
+            "mainClass": "medium.BiggerIsGreater",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ClimbingTheLeaderboard",
+            "request": "launch",
+            "mainClass": "medium.ClimbingTheLeaderboard",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "AlmostStored",
+            "request": "launch",
+            "mainClass": "medium.AlmostStored",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ExtraLongFactorials",
+            "request": "launch",
+            "mainClass": "medium.ExtraLongFactorials",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "NonDivisibleSubset",
+            "request": "launch",
+            "mainClass": "medium.NonDivisibleSubset",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "FormingMagicSquare",
+            "request": "launch",
+            "mainClass": "medium.FormingMagicSquare",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "DijkstraShortestReach2",
+            "request": "launch",
+            "mainClass": "medium.DijkstraShortestReach2",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "RoadsAndLibraries",
+            "request": "launch",
+            "mainClass": "medium.RoadsAndLibraries",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BST",
+            "request": "launch",
+            "mainClass": "BST",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise",
+            "request": "launch",
+            "mainClass": "Exercise",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise2",
+            "request": "launch",
+            "mainClass": "Exercise2",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "Exercise3",
+            "request": "launch",
+            "mainClass": "Exercise3",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "FlippingMatrix",
+            "request": "launch",
+            "mainClass": "FlippingMatrix",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "Node",
+            "request": "launch",
+            "mainClass": "binarytree.Node",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "commons.Array",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "commons.graph.Graph",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BinaryGap",
+            "request": "launch",
+            "mainClass": "easy.BinaryGap",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "easy.BinarySearch",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BranchCounts",
+            "request": "launch",
+            "mainClass": "easy.BranchCounts",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BranchSums",
+            "request": "launch",
+            "mainClass": "easy.BranchSums",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "CaesarCipherEncryptor",
+            "request": "launch",
+            "mainClass": "easy.CaesarCipherEncryptor",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ClassPhotos",
+            "request": "launch",
+            "mainClass": "easy.ClassPhotos",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ClosestValueInBinaryTree",
+            "request": "launch",
+            "mainClass": "easy.ClosestValueInBinaryTree",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "FirstNonRepeatingCharacter",
+            "request": "launch",
+            "mainClass": "easy.FirstNonRepeatingCharacter",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "GenerateDocument",
+            "request": "launch",
+            "mainClass": "easy.GenerateDocument",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "MinimumWaitingTime",
+            "request": "launch",
+            "mainClass": "easy.MinimumWaitingTime",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "NodeDepths",
+            "request": "launch",
+            "mainClass": "easy.NodeDepths",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "NonConstructibleChain",
+            "request": "launch",
+            "mainClass": "easy.NonConstructibleChain",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "NthFibonacci",
+            "request": "launch",
+            "mainClass": "easy.NthFibonacci",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "OddOccurrencesInArray",
+            "request": "launch",
+            "mainClass": "easy.OddOccurrencesInArray",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ProductSum",
+            "request": "launch",
+            "mainClass": "easy.ProductSum",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicatesFromLinkedList",
+            "request": "launch",
+            "mainClass": "easy.RemoveDuplicatesFromLinkedList",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "RunLineEncoding",
+            "request": "launch",
+            "mainClass": "easy.RunLineEncoding",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "SmallesNotRepeating",
+            "request": "launch",
+            "mainClass": "easy.SmallesNotRepeating",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "SortedSquaredArray",
+            "request": "launch",
+            "mainClass": "easy.SortedSquaredArray",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "TandemBicycle",
+            "request": "launch",
+            "mainClass": "easy.TandemBicycle",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ThreeLargestNumbers",
+            "request": "launch",
+            "mainClass": "easy.ThreeLargestNumbers",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "TournamentWinner",
+            "request": "launch",
+            "mainClass": "easy.TournamentWinner",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "TwoNumberSum",
+            "request": "launch",
+            "mainClass": "easy.TwoNumberSum",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ValidateSubsequence",
+            "request": "launch",
+            "mainClass": "easy.ValidateSubsequence",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "Graph(1)",
+            "request": "launch",
+            "mainClass": "graph.Graph",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "linkedList.LinkedList",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ArrayOfProducts",
+            "request": "launch",
+            "mainClass": "medium.ArrayOfProducts",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BFSShortestReach",
+            "request": "launch",
+            "mainClass": "medium.BFSShortestReach",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchTraversal",
+            "request": "launch",
+            "mainClass": "medium.BinarySearchTraversal",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchTree",
+            "request": "launch",
+            "mainClass": "medium.BinarySearchTree",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeDiameter",
+            "request": "launch",
+            "mainClass": "medium.BinaryTreeDiameter",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "FairIndexes",
+            "request": "launch",
+            "mainClass": "medium.FairIndexes",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "FindInorderSuccessor",
+            "request": "launch",
+            "mainClass": "medium.FindInorderSuccessor",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "FindKthLargestValueInBst",
+            "request": "launch",
+            "mainClass": "medium.FindKthLargestValueInBst",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "FirstDuplicateValue",
+            "request": "launch",
+            "mainClass": "medium.FirstDuplicateValue",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "InvertBinaryTree",
+            "request": "launch",
+            "mainClass": "medium.InvertBinaryTree",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "JesseAndCookies",
+            "request": "launch",
+            "mainClass": "medium.JesseAndCookies",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "LegoBlocks",
+            "request": "launch",
+            "mainClass": "medium.LegoBlocks",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "LevenshteinDistance",
+            "request": "launch",
+            "mainClass": "medium.LevenshteinDistance",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "LongestPeak",
+            "request": "launch",
+            "mainClass": "medium.LongestPeak",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubsetSumNoAdjacent",
+            "request": "launch",
+            "mainClass": "medium.MaxSubsetSumNoAdjacent",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "MergeOverlappingIntervals",
+            "request": "launch",
+            "mainClass": "medium.MergeOverlappingIntervals",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "medium.MergeSort",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "MinHeightBst",
+            "request": "launch",
+            "mainClass": "medium.MinHeightBst",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "MinNumberOfCoinsForChange",
+            "request": "launch",
+            "mainClass": "medium.MinNumberOfCoinsForChange",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "MonotonicArray",
+            "request": "launch",
+            "mainClass": "medium.MonotonicArray",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "MoveElementToEnd",
+            "request": "launch",
+            "mainClass": "medium.MoveElementToEnd",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfWaysToMakeChange",
+            "request": "launch",
+            "mainClass": "medium.NumberOfWaysToMakeChange",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "NumberOfWaysToTraverseGraph",
+            "request": "launch",
+            "mainClass": "medium.NumberOfWaysToTraverseGraph",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "medium.QuickSort",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ReconstructBst",
+            "request": "launch",
+            "mainClass": "medium.ReconstructBst",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "SmallesDifference",
+            "request": "launch",
+            "mainClass": "medium.SmallesDifference",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "SpiralTraverse",
+            "request": "launch",
+            "mainClass": "medium.SpiralTraverse",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ThreeNumberSum",
+            "request": "launch",
+            "mainClass": "medium.ThreeNumberSum",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "TokenStackExchange",
+            "request": "launch",
+            "mainClass": "medium.TokenStackExchange",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ValidateBinarySearchTree",
+            "request": "launch",
+            "mainClass": "medium.ValidateBinarySearchTree",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "DepthFirstSearch",
+            "request": "launch",
+            "mainClass": "tree.DepthFirstSearch",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        }
+    ]
+}

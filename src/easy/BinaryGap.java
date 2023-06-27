@@ -84,7 +84,7 @@ public class BinaryGap {
         String binaryString = Integer.toBinaryString(N);
 
         int longestBinaryGap = 0;
-        List<Integer> onesList = new ArrayList();
+        List<Integer> onesList = new ArrayList<>();
 
         for (int i = 0; i < binaryString.length(); i++) {
             if (binaryString.charAt(i) == '0')

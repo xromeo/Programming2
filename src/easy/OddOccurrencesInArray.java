@@ -40,7 +40,7 @@ all but one of the values in A occur an even number of times.
 public class OddOccurrencesInArray {
 
     public int solution(int[] A) {
-        Map<Integer, Integer> map = new HashMap();
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < A.length; i++) {
             if (!map.containsKey(A[i])) {
                 map.put(A[i], 0);
