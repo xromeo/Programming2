@@ -31,6 +31,22 @@ public class BST {
         return this;
     }
 
+    public static BST insert2(BST root, int data) {
+        if(root == null) {
+            return new BST(data);
+        } else {
+            BST cur;
+            if(data <= root.value) {
+                cur = insert2(root.left, data);
+                root.left = cur;
+            } else {
+                cur = insert2(root.right, data);
+                root.right = cur;
+            }
+            return root;
+        }
+    }
+
     public boolean contains(int value) {
         BST current = this;
         while (current != null) {

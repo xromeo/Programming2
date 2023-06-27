@@ -30,14 +30,12 @@ Constraints:
 
 package medium;
 
-import commons.Array;
-
 public class NumberOfWaysToMakeChange {
 
     public int numberOfWaysToMakeChange(int[] coins, int amount) {
 
         int[] ways = new int[amount + 1];
-        
+
         ways[0] = 1;
 
         for (int coin : coins) {

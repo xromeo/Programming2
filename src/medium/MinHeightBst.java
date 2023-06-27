@@ -40,9 +40,9 @@ public class MinHeightBst {
         }
         int mid = (start + end) / 2;
         int value = array.get(mid);
-        
+
         var bst = new BinarySearchTree(value);
-        
+
         bst.left = minHeightBst(array, bst, start, mid - 1);
         bst.right = minHeightBst(array, bst, mid + 1, end);
         return bst;

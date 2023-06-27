@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ViralAdvertising",
+            "request": "launch",
+            "mainClass": "easy.ViralAdvertising",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "GradingStudents",
+            "request": "launch",
+            "mainClass": "easy.GradingStudents",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "NumberLineJumps",
+            "request": "launch",
+            "mainClass": "easy.NumberLineJumps",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayDivision",
+            "request": "launch",
+            "mainClass": "easy.SubarrayDivision",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "search.BinarySearch",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "sort.QuickSort",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "MergSort",
+            "request": "launch",
+            "mainClass": "sort.MergSort",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "LarrysArray",
+            "request": "launch",
+            "mainClass": "medium.LarrysArray",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BiggerIsGreater",
+            "request": "launch",
+            "mainClass": "medium.BiggerIsGreater",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ClimbingTheLeaderboard",
+            "request": "launch",
+            "mainClass": "medium.ClimbingTheLeaderboard",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "AlmostStored",
+            "request": "launch",
+            "mainClass": "medium.AlmostStored",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "ExtraLongFactorials",
+            "request": "launch",
+            "mainClass": "medium.ExtraLongFactorials",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "NonDivisibleSubset",
+            "request": "launch",
+            "mainClass": "medium.NonDivisibleSubset",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
             "name": "FormingMagicSquare",
             "request": "launch",
             "mainClass": "medium.FormingMagicSquare",
