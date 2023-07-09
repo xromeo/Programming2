@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FlatlandSpaceStation",
+            "request": "launch",
+            "mainClass": "easy.FlatlandSpaceStation",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "AppendAndDelete",
+            "request": "launch",
+            "mainClass": "easy.AppendAndDelete",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "LisaWorkbook",
+            "request": "launch",
+            "mainClass": "easy.LisaWorkbook",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "SequenceEcuation",
+            "request": "launch",
+            "mainClass": "easy.SequenceEcuation",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "JumpingOnClouds",
+            "request": "launch",
+            "mainClass": "easy.JumpingOnClouds",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "SaveThePrisioner",
+            "request": "launch",
+            "mainClass": "easy.SaveThePrisioner",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BillDivision",
+            "request": "launch",
+            "mainClass": "easy.BillDivision",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "BreakingTheRecords",
+            "request": "launch",
+            "mainClass": "easy.BreakingTheRecords",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
             "name": "ViralAdvertising",
             "request": "launch",
             "mainClass": "easy.ViralAdvertising",
