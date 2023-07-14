@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SalesByMatch",
+            "request": "launch",
+            "mainClass": "easy.SalesByMatch",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "HappyLadyBugs",
+            "request": "launch",
+            "mainClass": "easy.HappyLadyBugs",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "DivisibleSumPairs",
+            "request": "launch",
+            "mainClass": "easy.DivisibleSumPairs",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
+            "name": "FairRations",
+            "request": "launch",
+            "mainClass": "easy.FairRations",
+            "projectName": "ProgrammingAE_f18e5b8f"
+        },
+        {
+            "type": "java",
             "name": "ViralAdvertising",
             "request": "launch",
             "mainClass": "easy.ViralAdvertising",
