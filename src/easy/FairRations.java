@@ -1,5 +1,6 @@
 package easy;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /*
@@ -31,31 +32,57 @@ Each of the N subjects has an even number of loaves after 4 loaves were distribu
 public class FairRations {
 
     public static String fairRations(List<Integer> B) {
-
         int total = 0;
         int previous = -1;
-        boolean even = true;
+        boolean previousIsEven = false;
+    
         for (int i = 0; i < B.size(); i++) {
             if (B.get(i) % 2 == 1) {
-                if (even) {
+                if (!previousIsEven) {
                     previous = i;
-                    even = false;
+                    previousIsEven = true;
                 } else {
                     total += (i - previous) * 2;
-                    even = true;
+                    previousIsEven = false;
                 }
             }
         }
-
-        if (even) {
+    
+        if (!previousIsEven) { 
             return String.valueOf(total);
         }
         return "NO";
     }
+    
+
+    public static String fairRationsV(List<Integer> A) {
+        int sum = 0;
+        Integer[] B = A.toArray(new Integer[A.size()]);
+        int N = B.length;
+        for (int i = 0; i < N; i++) {
+            sum += B[i];
+        }
+
+        int count = 0;
+        if (sum % 2 == 1) {
+            return "NO";
+        } else {
+            for (int i = 0; i < N; i++) {
+                if (B[i] % 2 != 0) {
+                    B[i] = B[i] + 1;
+                    B[i + 1] = B[i + 1] + 1;
+                    count += 2;
+                }
+
+            }
+            return String.valueOf(count);
+        }
+    }
 
     public static void main(String[] args) {
-        System.out.println(fairRations(List.of(4, 5, 6, 7)));
-        System.out.println(fairRations(List.of(2, 3, 4, 5, 6)));
-        System.out.println(fairRations(List.of(1, 2)));
+       // System.out.println(fairRations(new ArrayList<>(List.of(4, 5, 6, 7))));
+        System.out.println(fairRations(new ArrayList<>(List.of(2, 3, 4, 5, 6))));
+        //System.out.println(fairRations(new ArrayList<>(List.of(1, 2))));
+        //System.out.println(fairRations(new ArrayList<>(List.of(2, 3, 4))));
     }
 }
