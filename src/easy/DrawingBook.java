@@ -31,6 +31,6 @@ public class DrawingBook {
     }
 
     public static void main(String[] args) {
-        
+        System.out.println(pageCount(5,3));
     }
 }

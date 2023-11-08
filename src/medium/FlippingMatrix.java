@@ -37,7 +37,7 @@ Output :
 
 public class FlippingMatrix {
 
-    public static int flippingMatrix(List<List<Integer>> matrix) {
+    public static int flippingMatrix2(List<List<Integer>> matrix) {
         int sum = 0;
         int size = matrix.size();
         for (int i = 0; i < size / 2; i++) {
@@ -48,6 +48,26 @@ public class FlippingMatrix {
                                         matrix.get(size - 1 - i).get(size - 1 - j))));
             }
         }
+        return sum;
+    }
+
+    public static int flippingMatrix(List<List<Integer>> matrix) {
+        int sum = 0;
+        int size = matrix.size();
+        int halfSize = size / 2;
+
+        for (int i = 0; i < halfSize; i++) {
+            for (int j = 0; j < halfSize; j++) {
+                int top_left = matrix.get(i).get(j);
+                int top_right = matrix.get(i).get(size - 1 - j);
+                int bottom_left = matrix.get(size - 1 - i).get(j);
+                int bottom_right = matrix.get(size - 1 - i).get(size - 1 - j);
+
+                int maxOfFour = Math.max(Math.max(top_left, top_right), Math.max(bottom_left, bottom_right));
+                sum += maxOfFour;
+            }
+        }
+
         return sum;
     }
 
