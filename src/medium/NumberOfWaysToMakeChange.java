@@ -55,5 +55,9 @@ public class NumberOfWaysToMakeChange {
         int[] coins = { 1, 5, 10, 25 };
         System.out.println(new NumberOfWaysToMakeChange().numberOfWaysToMakeChange(coins, 10));
         System.out.println(new NumberOfWaysToMakeChange().numberOfWaysToMakeChange(coins, 0));
+        
+        int[] coins2 = { 1, 2, 4 };
+        
+        System.out.println(new NumberOfWaysToMakeChange().numberOfWaysToMakeChange(coins2, 6));
     }
 }
