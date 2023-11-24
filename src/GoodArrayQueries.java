@@ -36,8 +36,8 @@ public class GoodArrayQueries {
 
         int[] results = new int[queries.length];
         for (int i = 0; i < queries.length; i++) {
-            int l = queries[i][0] - 1; // Adjust for 0-based indexing
-            int r = queries[i][1] - 1; // Adjust for 0-based indexing
+            int l = queries[i][0] - 1;
+            int r = queries[i][1] - 1;
             int m = queries[i][2];
             
             long product = 1;
